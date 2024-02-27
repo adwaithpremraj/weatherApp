@@ -37,18 +37,23 @@ async function checkWeather(city) {
 
             break;
         case 'Snow':
-            weatherIcon.src = "assets/snow.jpg";
-            body.style.backgroundImage = 'url("assets/download.png")'
+            weatherIcon.src = "assets/snow.png";
+            body.style.backgroundImage = 'url("assets/snow.jpg")'
 
             break;
+            case 'Mist':
+                weatherIcon.src = "assets/cloud.png";
+                body.style.backgroundImage = 'url("assets/cloud.jpg")'
+    
+                break;
         case 'Drizzle':
-            weatherIcon.src = "assets/drizzle.jpg";
-            body.style.backgroundImage = 'url("assets/download.png")'
+            weatherIcon.src = "assets/drizzle.png";
+            body.style.backgroundImage = 'url("assets//drizzle.jpg")'
 
             break;
         case 'Haze':
-            weatherIcon.src = "assets/drizzle.jpg";
-            body.style.backgroundImage = 'url("assets/download.png")'
+            weatherIcon.src = "assets/drizzle.png";
+            body.style.backgroundImage = 'url("assets/drizzle.jpg")'
 
             break;
 
