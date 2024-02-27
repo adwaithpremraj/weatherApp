@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Recommended for better sizing */
+}
+body{
+    background-size: cover;
+}
+html, body {
+    height: 100%; /* Ensure the parent covers the full height */
+}
+
+.Weatherbox {
+    height: 40em;
+    background-color: darkgray;
+
+}
+.wform{
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 29px;
+    color: rgb(21, 20, 20);
+    flood-color: black;
+
+
+}
+.Weatherbox button{
+    color: rgb(21, 20, 20);
+    font-size:29px;
+    background:#fdfffe;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    padding-bottom:50px;
+}
+.wimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("./assets/cloud.png") */
+}
+.wloc{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.wtemp{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.whumidity{
+    display: flex;
+    background: rgb(156, 156, 161);
+}
+.data-container{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.Humidity , .wind{
+    display: flex;
+    align-items: center;
+}
+.Humidity{
+    margin-left: 20px;
+}
+.text{
+    margin-left: 8px;
+}
+.text span,p{
+    font-weight: bold;
+    font-size: 15px;
+}
